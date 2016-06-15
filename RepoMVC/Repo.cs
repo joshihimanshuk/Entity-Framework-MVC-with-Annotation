@@ -10,7 +10,9 @@ namespace RepoMVC
     {
         public List<job> GetJobs()
         {
-
+            pubs2015Entities objx = new pubs2015Entities();
+            var x = from n in objx.jobs select n;
+            return x.ToList();
         }
     }
 }
