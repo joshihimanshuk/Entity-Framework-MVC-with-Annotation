@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace RepoMVC
 {
-    public class Class1
+    class Repo
     {
+        public List<job> GetJobs()
+        {
+
+        }
     }
 }
